@@ -6,15 +6,21 @@
         <script src="js/libs/jquery.mask/jquery.mask.min.js" type="text/javascript"></script>
         <script src="js/libs/json2/json2.js" type="text/javascript"></script>
         <script src="js/libs/knockout/knockout-min.js" type="text/javascript"></script>
-        <link href="js/css/site.css" rel="stylesheet" type="text/css"/>
+        <link href="css/site.css" rel="stylesheet" type="text/css"/>
+        <script src="js/core.js" type="text/javascript"></script>
+        <link href="js/libs/qtip2/jquery.qtip.css" rel="stylesheet" type="text/css"/>
+        <script src="js/libs/qtip2/jquery.qtip.js" type="text/javascript"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div id="header">
-
+        <div id="header" class="fixed"  style="display: block; top: 0px;">
+            <div class="inner">
+                <!-- .inner -->
+            </div>
         </div>
- <br/>
+        <div class="shadow" style="display:block;"><span></span></div>
+        <br/>
         <div id="wrapper">
 
 
@@ -26,13 +32,17 @@
             <div id="sideMenu">
                 <table border="1" >
                     <tbody>
-                        <tr>
-                            <td></td>
+                        <tr id="menu1">
+                            <td >
+                                <a class="menu-button">Teste</a>
+                            </td>
                         </tr>
-                        <tr>
-                            <td></td>
+                        <tr  id="menu2">
+                            <td>
+                                <a class="menu-button">Teste</a>
+                            </td>
                         </tr>
-                        <tr>
+                        <tr class="hasTooltip">
                             <td></td>
                         </tr>
                         <tr>
@@ -55,11 +65,16 @@
 
 
             </div>
+
         </div>
-           <br/>
+
+        <br/>
+        <br/>
+
         <div id ="footer">
 
 
         </div>
+
     </body>
 </html>

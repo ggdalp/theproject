@@ -1,0 +1,84 @@
+#wrapper{
+    width: 90%;
+    height: 100%;
+    position: relative;
+    // border: 1px solid black;
+    margin-left: 60px;    
+    background-color: paleturquoise;
+    margin-top: 55px;
+}
+#content{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    //border: 1px solid black;
+    background-color: aqua;
+    margin-left: 75px;
+    position: absolute;
+
+
+}
+
+#header{
+
+    background-color: aquamarine;
+    height: 48px;width: 100%;z-index: 1000;
+}
+#sideMenu{
+
+    width: 45px;
+    height: 100%;
+    position: absolute;
+
+    background-color: midnightblue;
+}
+#footer{
+
+    width: 100%;
+    height: 60px;
+    position: absolute;
+
+    background-color: deepskyblue;
+
+}
+.hidden{
+    display: none;
+}
+#sideMenu table{
+
+    position:relative;
+
+}
+#sideMenu table tr td{
+    position:relative;
+    table-layout: fixed; 
+    width: 35px;
+    height: 35px;
+
+
+}
+.fixed {
+    position: fixed;left: 0;
+    -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);}
+
+.inner {width: 940px;margin: 0 auto;height: 48px;}
+
+
+.shadow{width: 100%;height: 5px;position: absolute;left: 0;bottom: -5px;z-index: 500;display: none;}
+
+.menu-button {
+    display:block;
+    /*background: url('images/yellow-button.png') top left no-repeat;*/
+    float: left;
+}
+
+.menu-button:hover {
+    background-position: center left;
+}
+
+.menu-button:active {
+    background-position: bottom left;
+    padding-top: 22px;
+}
